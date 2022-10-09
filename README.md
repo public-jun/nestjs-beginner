@@ -33,6 +33,10 @@ $ npm install
 ```
 
 ## Running the app
+```bash
+# docker compose (pgadmin + postgres)
+$ docker compose up -d
+```
 
 ```bash
 # development
