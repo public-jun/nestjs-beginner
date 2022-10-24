@@ -1,5 +1,5 @@
 import { User } from './../entities/user.entity';
-import { Item } from 'src/entities/item.entity';
+import { Item } from '../entities/item.entity';
 import { Repository } from 'typeorm';
 import { CreateItemDto } from './dto/create-item.dto';
 import { ItemStatus } from './item-status.enum';

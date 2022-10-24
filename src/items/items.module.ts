@@ -4,7 +4,7 @@ import { Module } from '@nestjs/common';
 import { ItemsController } from './items.controller';
 import { ItemsService } from './items.service';
 import { ItemRepository } from './item.repository';
-import { Item } from 'src/entities/item.entity';
+import { Item } from '../entities/item.entity';
 
 @Module({
   imports: [TypeOrmModule.forFeature([Item]), AuthModule],
