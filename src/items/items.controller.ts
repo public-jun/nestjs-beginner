@@ -18,10 +18,10 @@ import {
   UseInterceptors,
 } from '@nestjs/common';
 import { ItemStatus } from './item-status.enum';
-import { GetUser } from 'src/auth/decorator/get-user.decorator';
-import { User } from 'src/entities/user.entity';
+import { GetUser } from '../auth/decorator/get-user.decorator';
+import { User } from '../entities/user.entity';
 import { removeAllListeners } from 'process';
-import { Role } from 'src/auth/decorator/role.decorator';
+import { Role } from '../auth/decorator/role.decorator';
 
 @Controller('items')
 @UseInterceptors(ClassSerializerInterceptor)

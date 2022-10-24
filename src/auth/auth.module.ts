@@ -6,7 +6,7 @@ import { PassportModule } from '@nestjs/passport';
 import { JwtModule } from '@nestjs/jwt';
 import { AuthController } from './auth.controller';
 import { AuthService } from './auth.service';
-import { User } from 'src/entities/user.entity';
+import { User } from '../entities/user.entity';
 import { UserRepository } from './user.repository';
 import { RolesGuard } from './guards/rolles.guard';
 
